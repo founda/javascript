@@ -12,9 +12,7 @@
  * Module dependencies
  */
 
-const path = require('path');
-
-const configuration = require(path.join(__dirname, 'dist', 'eslint.js'));
+const configuration = require('./dist/eslint.js');
 
 /*
  * Module exports

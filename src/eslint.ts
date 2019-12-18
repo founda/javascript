@@ -12,7 +12,7 @@
  * Module
  */
 
-const configuration = {
+const eslint = {
   root: true,
   parserOptions: {
     parser: 'babel-eslint',
@@ -66,4 +66,4 @@ const configuration = {
  * Module exports
  */
 
-module.exports = configuration;
+module.exports = eslint;

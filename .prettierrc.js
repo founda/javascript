@@ -9,7 +9,7 @@
  */
 
 /*
- * Module dependencies
+ * Module
  */
 
 const configuration = {
