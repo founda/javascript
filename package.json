@@ -1,7 +1,7 @@
 {
   "name": "@founda/javascript",
   "repository": "git://github.com/founda/javascript.git",
-  "version": "1.31.0",
+  "version": "1.31.1",
   "description": "Cross project code style",
   "license": "All Rights Reserved",
   "scripts": {
