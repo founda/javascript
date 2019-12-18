@@ -11,7 +11,7 @@
     "format": "prettier --write \"{,!(node_modules)/**/}*.{js,ts,json,vue}\"",
     "prepare": "npm run build || true"
   },
-  "devDependencies": {
+  "dependencies": {
     "@types/node": "12.11.7",
     "babel-cli": "6.26.0",
     "babel-core": "6.26.3",

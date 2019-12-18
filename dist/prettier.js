@@ -1,2 +1,9 @@
-const prettier = require('./dist/prettier.js');
+const prettier = {
+    singleQuote: true,
+    tabWidth: 2,
+    useTabs: false,
+    semi: true,
+    bracketSpacing: true,
+    arrowParens: 'always'
+};
 module.exports = prettier;
