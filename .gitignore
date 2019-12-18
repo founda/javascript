@@ -2,7 +2,7 @@
 ### CUSTOM ###
 
 package-lock.json
-dist
+# dist
 temp
 tmp
 
