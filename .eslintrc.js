@@ -12,19 +12,10 @@
  * Module dependencies
  */
 
-const path = require('path');
-
-/*
- * Module
- */
-
-const configuration = {
-  root: true,
-  extends: [require.resolve('./eslint.js')]
-};
+const eslint = require('./dist/eslint.js');
 
 /*
  * Module exports
  */
 
-module.exports = configuration;
+module.exports = eslint;

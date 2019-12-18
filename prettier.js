@@ -12,10 +12,10 @@
  * Module dependencies
  */
 
-const configuration = require('./dist/prettier.js');
+const prettier = require('./dist/prettier.js');
 
 /*
  * Module exports
  */
 
-module.exports = configuration;
+module.exports = prettier;

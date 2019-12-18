@@ -9,21 +9,13 @@
  */
 
 /*
- * Module
+ * Module dependencies
  */
 
-const configuration = {
-  singleQuote: true,
-  // trailingComma: 'all',
-  tabWidth: 2,
-  useTabs: false,
-  semi: true,
-  bracketSpacing: true,
-  arrowParens: 'always'
-};
+const prettier = require('./dist/prettier.js');
 
 /*
  * Module exports
  */
 
-module.exports = configuration;
+module.exports = prettier;

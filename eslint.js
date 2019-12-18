@@ -12,10 +12,10 @@
  * Module dependencies
  */
 
-const configuration = require('./dist/eslint.js');
+const eslint = require('./dist/eslint.js');
 
 /*
  * Module exports
  */
 
-module.exports = configuration;
+module.exports = eslint;
